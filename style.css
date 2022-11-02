@@ -1,0 +1,70 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  border-bottom: floralwhite;
+}
+
+#left_part {
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+  gap: 20px;
+  font: size 10px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+sup {
+  color: red;
+  font: size 5px;
+}
+#searchbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  border-radius: 5px;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 500px;
+  background-color: rgb(244, 245, 246);
+}
+.search-bar input {
+  /* width: 00px; */
+  background: transparent;
+  flex: 1;
+  border: 0;
+  outline: none;
+}
+#right_part {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#profile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+}
+#wishlist {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#bag {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
